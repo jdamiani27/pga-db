@@ -15,7 +15,7 @@ fileConfig(config.config_file_name)
 
 # add your model's MetaData object here
 # for 'autogenerate' support
-from pga_db import models
+from pgadb import models
 target_metadata = models.metadata
 # target_metadata = None
 
